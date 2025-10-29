@@ -22,6 +22,7 @@ namespace DbOperationsWithEFCoreApp.Controllers
 
             return Ok(result);
         }
+        
 
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetCurrencyByIdAsync([FromRoute] int id)
